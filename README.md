@@ -23,14 +23,6 @@ This assignment involves creating a mobile application using React Native that c
    ```
 3. Commit each task separately as you complete them.
 
-### Development
-
-1. **Recreate the UI Design**: Follow the provided mockup to create the login and home screens.
-2. **Login Screen**: Create a form to accept name and email. On login, navigate to the home screen and pass these details.
-3. **Home Screen**: Display the passed name and email. Create sections for popular and featured job cards.
-4. **Job Cards**: Develop functional components for job cards. Implement these components in the home screen, passing card details via props. Display at least 8 different cards in each section.
-5. **Styling**: Style the application to closely match the provided UI design. Use custom components to ensure a consistent look.
-
 ## Components
 
 ### LoginScreen
@@ -91,5 +83,3 @@ _Featured Job Card_ -->
 5. Use the Expo CLI to run the app on an iOS simulator, Android emulator, or physical device.
 
 ## Conclusion
-
-This README provides an overview of the DCIT202 Assignment 4, including the setup instructions, component descriptions, and screenshots. Follow these guidelines to complete the assignment and submit your work correctly.
