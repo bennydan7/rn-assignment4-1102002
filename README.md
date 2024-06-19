@@ -1,27 +1,8 @@
-# DCIT202 Mobile Application Development Assignment 4
+# DCIT202 Assignment 4
 
 ## Overview
 
 This assignment involves creating a mobile application using React Native that closely matches a provided UI design. The app will have a login screen where users can input their name and email, which will be passed to a home screen upon login. The home screen will display the provided name and email, and also feature sections for popular and featured job cards.
-
-## Features
-
-- **Login Screen**: Users can enter their name and email.
-- **Home Screen**: Displays the user's name and email. Includes sections for popular and featured job cards.
-- **Reusable Components**: Custom components for job cards that accept props for card details.
-- **Styling**: The app is styled to match the provided UI design closely.
-- **Custom Components**: Used throughout the application for a consistent look and feel.
-
-## Instructions
-
-### Repository Setup
-
-1. Create a repository named `rn-assignment4-ID` (replace `ID` with your student ID, e.g., `rn-assignment4-1129884`).
-2. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/bennydan7/rn-assignment4-11024002.git
-   ```
-3. Commit each task separately as you complete them.
 
 ## Components
 
@@ -81,5 +62,3 @@ _Featured Job Card_ -->
    expo start
    ```
 5. Use the Expo CLI to run the app on an iOS simulator, Android emulator, or physical device.
-
-## Conclusion
