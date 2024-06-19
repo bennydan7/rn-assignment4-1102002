@@ -32,8 +32,6 @@ This assignment involves creating a mobile application using React Native that c
 
 ## Screenshots
 
-Include screenshots of your app in different states (Login screen, Home screen with job cards). Here are placeholders for your actual screenshots:
-
 ## Login Screen
 
 ![Login Screen](./assets/loginpage.jpg)
