@@ -36,14 +36,11 @@ This assignment involves creating a mobile application using React Native that c
 
 ![Login Screen](./assets/loginpage.jpg)
 
-<!-- ![Home Screen](screenshots/home.png)
-_Home Screen_
+## Home Screen
 
-![Popular Job Card](screenshots/popular_card.png)
-_Popular Job Card_
+![Home Screen](./assets/homescreen1.jpg)
 
-![Featured Job Card](screenshots/featured_card.png)
-_Featured Job Card_ -->
+![Home Screen](./assets/homescreen2.jpg)
 
 ## Running the App
 
