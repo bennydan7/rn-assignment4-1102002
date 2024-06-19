@@ -1,17 +1,9 @@
 import React, { useState } from "react";
-import {
-  StyleSheet,
-  Text,
-  View,
-  TextInput,
-  TouchableOpacity,
-  Image,
-} from "react-native";
+import { Text, View, TextInput, TouchableOpacity, Image } from "react-native";
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from "react-native-responsive-screen";
-
 import AppleImage from "../assets/apple.png";
 import GoogleImage from "../assets/google.png";
 import FacebookImage from "../assets/facebook.png";
@@ -19,6 +11,10 @@ import FacebookImage from "../assets/facebook.png";
 const Login = ({ navigation }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+
+  const handleLogin = () => {
+    navigation.navigate("Home");
+  };
 
   return (
     <View
@@ -99,7 +95,7 @@ const Login = ({ navigation }) => {
             alignItems: "center",
             justifyContent: "center",
           }}
-          //   onPress={handleLogin}
+          onPress={handleLogin}
         >
           <Text style={{ fontSize: hp("2.5%"), color: "white" }}>Log in</Text>
         </TouchableOpacity>
